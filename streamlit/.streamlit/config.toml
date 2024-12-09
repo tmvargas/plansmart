@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true
+showSidebarNavigation = true
