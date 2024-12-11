@@ -18,6 +18,7 @@ def login():
         if username == 'user' and password == 'qwe123':
             st.success("Login bem-sucedido!")
             sleep(0.3)
+            
 
             st.session_state.logged_in = True
             st.rerun()
@@ -31,14 +32,14 @@ def logout():
 
 def quadro_de_obra():
     nome_spe = {
-        'Nome SPE': 
+        'Emopreendimento': 
         ['Incorporadora Moinhos Senior Residence SPE Ltda.',
         'Incorporadora Almirante Tamandaré SPE Ltda.',
         'Incorporadora Barbosa Gonçalves SPE Ltda.',
         'Incorporadora Alfa SPE Ltda.',
         'Incorporadora Gonçalves dias SPE Ltda.',
         'Incorporadora Magno Menino Deus SPE Ltda.',
-        'INCORPORADORA WASHINGTON LUIZ SPE LTDA'
+        'Incorporadora Washington Luiz SPE Ltda'
         ]
     }
 
